@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://gitee.com/wangjianhui_1998/shop-cloud_65
          # username: 1299945679@qq.com
-         # password: wang7788945
+         # password: wang7788945    啊爱死大神打
           username:
           password:
 eureka:
