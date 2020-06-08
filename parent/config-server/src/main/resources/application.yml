@@ -1,0 +1,18 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/wangjianhui_1998/shop-cloud_65
+         # username: 1299945679@qq.com
+         # password: wang7788945
+          username:
+          password:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
